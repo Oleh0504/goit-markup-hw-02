@@ -1,0 +1,102 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --secondary-background-color: #2F303A;
+    --accent-color-logo: #000;
+    --button-background-color: #F5F4FA;
+}
+ul {list-style: none;}
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+
+    /*font-family: 'Oleo Script', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;*/
+
+    /* Шапка сайта */
+}
+.logo {
+    color: var(--accent-color);
+}
+.logo-accent-nav {
+   color: var(--accent-color-logo); 
+}
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.auth-nav .link {
+    color: var(--primary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Контент */
+/* Герой */
+.hero-title {
+    color: var(--primary-white-color);
+}
+.hero {
+    background-color: var(--secondary-background-color);
+}
+
+/* Кнопка */
+
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    border: none;
+    /*outline: none;*/
+}
+.button.portfolio {
+    color: var(--title-text-color);
+    background-color: var(--button-background-color);}
+.button.portfolio:hover,
+.button.portfolio:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+ }
+
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Футер */
+
+.footer {
+   background-color: var(--secondary-background-color);
+   }
+
+.logo-accent-footer {
+    color: var(--primary-white-color);
+}
+.address.list .link{
+    color: var(--primary-white-color);
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
